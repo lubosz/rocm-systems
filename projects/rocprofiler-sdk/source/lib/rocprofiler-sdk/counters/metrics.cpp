@@ -42,6 +42,7 @@
 #include "yaml-cpp/parser.h"
 
 #include <dlfcn.h>  // for dladdr
+#include <fstream>
 #include <cstdint>
 #include <cstdlib>
 #include <memory>
