@@ -23,6 +23,8 @@
 #include "lib/python/rocpd/source/serialization/sql.hpp"
 #include "lib/output/sql/common.hpp"
 
+#include <fmt/ranges.h>
+
 namespace cereal
 {
 SQLite3InputArchive::SQLite3InputArchive(sqlite3*         conn,
